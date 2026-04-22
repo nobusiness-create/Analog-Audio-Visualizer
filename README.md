@@ -20,9 +20,13 @@ Analog 3-band stereo spectrum analyzer that visualizes Bass, Mid, and Treble fre
 
 ## Working
 Input Buffer (LM358) — Buffers the audio signal to prevent source loading
+
 RC Filter Bank — Passive RC networks split the signal into Bass, Mid, and Treble bands
+
 Rectification (1N4148) — Diodes convert each band's AC signal into a DC envelope
+
 Auto Gain Control (LM13700) — OTA dynamically adjusts gain to keep display active at all volume levels
+
 LED Display (LM3915) — Logarithmic LED driver illuminates up to 10 LEDs per band on a dB scale
 
 ## Frequency
